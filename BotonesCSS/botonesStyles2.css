@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+/*OpenSans*/
+.boton{
+    padding: .7em 1.5em;
+    margin: .5em 1em;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    transition: .5s;
+}
+.boton:hover{
+    cursor: pointer;
+}
+.boton:focus{
+  outline: 0;
+}
+
+.boton.basic{
+   background: transparent;
+   color: #673ab7;
+   border: .5px solid transparent;
+   border-radius: 7px;
+}
+.boton.basic:hover{
+  background: rgba(200, 180, 250, .1);
+}
+.boton.basic:focus{
+  background: rgba(200, 180, 250, .5);
+}
+
+.boton.raised{
+   background: #d81b60;
+   color: #ffffff;
+   border: .5px solid transparent;
+   box-shadow: 0px 2px 4px #7f7f7f;
+   border-radius: 7px;
+}
+.boton.raised:focus{
+  background: #e35183;
+  box-shadow: 0px 5px 10px #7f7f7f;
+}
+
+.boton.stroked{
+  background: #ffffff;
+  color: #2196f3;
+  border: .5px solid #cfcfcf;
+  border-radius: 7px;
+}
+.boton.stroked:hover{
+  background: #f5fbff;
+  border: .5px solid #bfbfbf;
+}
+.boton.stroked:focus{
+  background: #e3f2fd;
+  border: .5px solid #afafaf;
+}
+
+.boton.flat{
+  background: #8e0000;
+  color: #ffffff;
+  border: 1px solid #a01313;
+  border-radius: 7px;
+}
+.boton.flat:focus{
+  background: #c62828;
+}

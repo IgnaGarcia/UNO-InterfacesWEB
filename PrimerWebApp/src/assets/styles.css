@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+}
+.compDiv{
+    background: #afafaf;
+    color: #353535;
+    padding: 3px 5px;
+}
+
+.compDiv2{
+    background: #353535;
+    color: #afafaf;
+    padding: 3px 5px 1px 5px;
+}
+
+.lista{
+    color: red;
+    text-decoration: underline;
+}
+
+.active{
+    background: #afafaf;
+    color: #353535;
+}

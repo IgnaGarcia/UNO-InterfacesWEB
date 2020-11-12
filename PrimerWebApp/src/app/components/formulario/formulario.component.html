@@ -1,0 +1,8 @@
+<div [class.compDiv]="true">
+    <p>Formulario para cambiar el nombre</p>
+    <input #nuevoNombre type="text" placeholder="Ingrese el nombre" (keyup.enter)="cambiarNombre(nuevoNombre.value)">
+    <p>{{ nombre }}</p>
+
+    <input type="text" [(ngModel)]="apellido">
+    <p>{{ apellido }}</p>
+</div>

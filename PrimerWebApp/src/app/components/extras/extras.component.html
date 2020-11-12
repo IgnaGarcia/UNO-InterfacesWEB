@@ -1,0 +1,10 @@
+<div [class.compDiv]="true">
+    <p>Estos son los extras</p>
+    <p *ngFor="let value of proyectos">
+        El proyecto {{ value.nombre }} desarrollado con {{ value.tecnologia }} con un tiempo de desarrollo de {{ value.tiempo }}hs y su estado
+        de finalizacion es <span 
+           [style.color]="value.estado == true ? 'green' : 'red'"                    
+        > {{ value.estado }} </span> . <br>
+        Se encuentra en: {{ value.url }}
+    </p>
+</div>

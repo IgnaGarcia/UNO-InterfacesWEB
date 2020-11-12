@@ -1,0 +1,11 @@
+<div [class.compDiv]="true"> 
+    <input type="text" [(ngModel)]="nombreAux">
+    <button (click)="add()">Agregar al Listado</button>
+
+    <ul [ngClass]="['lista']"> 
+        <li *ngFor="let value of listado" >
+            {{ value.indice }} - {{ value.nombre }}
+        </li>
+    </ul>
+    
+</div>

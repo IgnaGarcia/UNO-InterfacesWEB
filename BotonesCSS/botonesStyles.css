@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+/*OpenSans*/
+button{
+    padding: .5em 1em;
+    margin: .5em 1em;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    transition: .7s;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0px 2px 2px #333333;
+    transform: translateY(-1px);
+}
+
+.boton.s1:hover{
+  box-shadow: 0px 2px #0288d1;
+}
+.boton.s2:hover{
+  box-shadow: 0px 2px #e6ffff;
+}
+.boton.s1{
+    background: transparent;
+    border: 1px solid #0288d1;
+    color: #0288d1;
+}
+.boton.s2{
+    background: #0288d1;
+    border: 1px solid transparent;
+    color: #e6ffff;
+}
+
+.boton.r1:hover{
+  box-shadow: 0px 2px #fb8c00;
+  border: 1px solid #fb8c00;
+}
+.boton.r2:hover{
+  box-shadow: 0px 2px #ffffe4;
+}
+.boton.r1{
+    background: #efefef;
+    border: 1px solid #4f4f4f;
+    color: #fb8c00;
+    border-radius: 7px;
+}
+.boton.r2{
+    background: #fb8c00;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    color: #4f4f4f;
+}
+
+
+.boton.c1:hover{
+  box-shadow: 0px 2px #6ab7ff;
+  border: 1px solid #6ab7ff;
+  background: #e1f5fe;
+}
+.boton.c2:hover{
+  box-shadow: 0px 2px #42a5f5;
+  background: #42a5f5;
+}
+.boton.c1{
+    background: #efefef;
+    border: 1px solid #4f4f4f;
+    color: #0288d1;
+    border-radius: 50px;
+}
+.boton.c2{
+    background: #0288d1;
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 50px;
+}

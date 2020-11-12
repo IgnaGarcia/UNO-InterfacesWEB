@@ -1,0 +1,8 @@
+a{
+    margin: 1px 4px 0px 4px;
+    padding: 4px;
+}
+a:visited{
+    text-decoration: none;
+    color: red;
+}

@@ -1,0 +1,21 @@
+<div>
+    <div [ngClass]="['compDiv2']">
+        <h1>Binevenido a {{ nombre }}</h1>
+        <p [ngClass]="['lista']">Esta es mi primera webapp</p>
+
+        <nav>
+            <a routerLink="/inicio" routerLinkActive="['active']" >inicio</a>
+            <a routerLink="/sobre-mi" routerLinkActive="['active']" >sobre mi</a>
+            <a routerLink="/extras" routerLinkActive="['active']" >extras</a>
+            <a routerLink="/listado" routerLinkActive="['active']" >listado</a>
+            <a routerLink="/formulario" routerLinkActive="['active']" >formulario</a>
+            <a routerLink="/usuarios" routerLinkActive="['active']" >usuarios</a>
+        </nav>
+    </div>
+
+    <router-outlet></router-outlet>
+
+    <footer [ngClass]="['compDiv2']">
+        <p>Este es el footer</p>
+    </footer>
+</div>
